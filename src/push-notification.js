@@ -4,7 +4,7 @@ export const initializeFirebase = () => {
     messagingSenderId: "155570941639"
   });
   navigator.serviceWorker
-  .register('/my-sw.js')
+  .register('https://nganttk89.github.io/push-notification-demo/firebase-messaging-sw.j')
   .then((registration) => {
     firebase.messaging().useServiceWorker(registration);
   });
