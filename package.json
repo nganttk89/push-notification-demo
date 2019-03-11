@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nganttk89.github.io/push-notification-demo",
   "dependencies": {
     "firebase": "^5.8.6",
     "react": "^16.8.4",
