@@ -1,7 +1,7 @@
 import firebase from 'firebase';
 export const initializeFirebase = () => {
   firebase.initializeApp({
-    messagingSenderId: "155570941639"
+    messagingSenderId: "693657651637"
   });
   navigator.serviceWorker
   .register('https://nganttk89.github.io/push-notification-demo/firebase-messaging-sw.js')
